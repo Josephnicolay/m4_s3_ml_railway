@@ -42,7 +42,7 @@ Thumbs.db
 .ipynb_checkpoints
 
 # Project specific
-linear_regression.joblib
-selected_features.csv
-xtest.csv
-tabla_prediction_and_items.txt
+# linear_regression.joblib
+# selected_features.csv
+# xtest.csv
+# tabla_prediction_and_items.txt
