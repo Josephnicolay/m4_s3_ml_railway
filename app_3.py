@@ -13,9 +13,9 @@ from sqlalchemy.orm import sessionmaker, Session
 
 
 # Configurar base de datos
-SQLALCHEMY_DATABASE_URL = "mysql+pymysql://root:tMOpnTUHVlZbqPuAqNKbFQCcIizGHjzN@metro.proxy.rlwy.net:54727/railway"
+# SQLALCHEMY_DATABASE_URL = "mysql+pymysql://root:tMOpnTUHVlZbqPuAqNKbFQCcIizGHjzN@metro.proxy.rlwy.net:54727/railway"
 # mysql://${{MYSQLUSER}}:${{MYSQLPASSWORD}}@${{RAILWAY_TCP_PROXY_DOMAIN}}:${{RAILWAY_TCP_PROXY_PORT}}/${{MYSQLDATABASE}}
-# SQLALCHEMY_DATABASE_URL = os.environ["SQLALCHEMY_DATABASE_URL"]
+SQLALCHEMY_DATABASE_URL = os.environ["SQLALCHEMY_DATABASE_URL"]
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
 metadata = MetaData()
 
